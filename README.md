@@ -1,12 +1,51 @@
-# React + Vite
+# ⚽️ English Premier League Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+English Premier League Hub is a modern web app that lets users view the latest EPL standings and upcoming match schedules. It fetches real-time data using an external API and automatically displays times in the Asia/Jakarta timezone.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔑 Key Features
 
-## Expanding the ESLint configuration
+- Live English Premier League standings table
+- Upcoming fixtures with date and time in Asia/Jakarta timezone
+- Fast performance with Vite for quick loading
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+
+- Languages: JavaScript, HTML, CSS  
+- Library: React  
+- API: Highlightly Football API (for standings and fixtures)  
+- Deployment: Netlify 
+- Version Control: Git & GitHub
+
+---
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
+   ``` bash
+   git clone https://github.com/mragilsa/English-Premier-League-Hub.git  
+
+2. Navigate into the project directory:
+   ``` bash
+   cd English-Premier-League-Hub
+
+3. Install dependencies:
+   ``` bash
+   npm install  
+
+4. Run the development server:
+    ``` bash
+   npm run dev  
+
+5. Once started, the app will run locally and be accessible via your browser
+
+---
+
+## 📘 How to Use
+
+- Visit the website to view the latest EPL standings.
+- Navigate to the fixtures section to see upcoming matches.  
+- All match times are automatically converted to Asia/Jakarta timezone.
